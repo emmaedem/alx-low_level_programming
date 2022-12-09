@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Hello , puts
- * description : i am writing my first c programme
- * Return : Always 0
+ * main - Entry
+ * description: i am writing my first c programme
+ * Return: Always 0
  */
 
 int main(void)
