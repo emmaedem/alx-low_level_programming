@@ -6,9 +6,9 @@
  * Return: absolute value
  */
 
-int _abs(int t)
+int _abs(int c)
 {
-	if (t >= 0)
+	if (c >= 0)
 
 		return (t);
 
