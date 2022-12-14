@@ -1,5 +1,4 @@
-#ifndef MAIN_H
-#include <main.h>
+#include "main.h"
 
 /**
  * main - main function to print _putchar and a new line
