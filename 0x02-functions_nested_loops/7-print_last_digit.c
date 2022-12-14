@@ -1,17 +1,16 @@
-#iist_digit.cnclude "main.h"
+#include "main.h"
 
 /**
- * print_last_digit - prints the last digit
- * @c: the number
+ * print_last_digit - prints the last digit of a number
+ * @n: the int to extract the last digit from
  * Return: value of the last digit
  */
-
 int print_last_digit(int c)
 {
 	int c;
 
-	if (c < 0)
-		c = -c;
+	if (n < 0)
+		n = -n;
 
 	c = n % 10;
 
