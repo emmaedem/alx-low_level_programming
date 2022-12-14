@@ -1,4 +1,4 @@
-#include "main.h"
+#iist_digit.cnclude "main.h"
 
 /**
  * print_last_digit - prints the last digit
