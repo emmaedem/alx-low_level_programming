@@ -2,8 +2,6 @@
 
 /**
  * print_alphabet_x10 - print alpha 10 times
- * @c: the character
- * Return: Always 0
  */
 
 void print_alphabet_x10(void)
@@ -19,5 +17,4 @@ void print_alphabet_x10(void)
 
 		_putchar('\n');
 	}
-
 }
