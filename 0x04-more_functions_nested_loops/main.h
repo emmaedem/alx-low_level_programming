@@ -14,5 +14,7 @@ void print_square(int size);
 void print_triangle(int size);
 void print_number(int n);
 int main(void);
+int isPrime(long int n);
+long int biggestFactor(long int a);
 
 #endif
