@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _street -concatenates two strings
- * @dest: input alue
- * src: input alue
+ * _street  -concatenates two strings
+ * @dest: pointer to destination string
+ * @src: pointer to source string
  *
- Return: void
+ Return: pointer to destination string
 */
 char *strcat(char *dest, char *src)
 {
