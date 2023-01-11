@@ -2,16 +2,24 @@
 #include "main.h"
 
 /**
- * main - program that print arugument
- * @argc: 
- * @argv: 
+ * main - print the name of the program
+ * @argc: Count argument
+ * @argv: Arguments
+ *
  * Return: Always 0
  */
 
 int main(int argc, char *argv[]);
 {
-	printf("%d\n", argc -1);
 
-	return 0;
+int count = 0;
+
+if (argc > 0)
+
+while (count < argc)
+
+printf("%s\n", argv[count]);
+
+return (0);
 
 }
