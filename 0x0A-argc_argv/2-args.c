@@ -9,12 +9,16 @@
  * Return: Always 0
  */
 
-int main(int argc, char *argv[]);
+int main(int argc, char *argv[])
+
 {
-int i;
-for (i = 0; i < argc; i++);
-{
-printf("%s\n", argv[i]);
-}
-return (0);
+	int number = 0;
+
+	while (number < argc)
+	{
+		printf("%s\n", *(argv + number));
+		number++;
+		(*argv)++;
+	}
+	return (0);
 }
