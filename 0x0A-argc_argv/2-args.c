@@ -11,16 +11,10 @@
 
 int main(int argc, char *argv[]);
 {
+int i;
+for (i = 0; i < argc; i++);
 
-/*Declaring variable*/
-int count = 0;
+printf("%s\n", argv[i]);
 
-if (argc > 0)
-
-{
-/*WHILE -print each arguments*/
-while (count < argc)
-}
-printf("%s\n", argv[count]);
-
+return (0);
 }

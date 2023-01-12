@@ -1,6 +1,5 @@
-#include "main.h"
-#include <stblib.h>
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - prints the multiplication of two integers
@@ -17,9 +16,9 @@ int a, b;
 if (argc == 3)
 {
 
-a = atoi(argv[1]);
+a = _atoi(argv[1]);
 
-b = atoi(argv[2]);
+b = _atoi(argv[2]);
 
 printf("%d\n", a *b);
 
