@@ -11,21 +11,17 @@
 int main(int argc, char *argv[])
 
 {
-int a, b;
+	int multiplication;
 
-if (argc == 3)
-{
-
-a = _atoi(argv[1]);
-
-b = _atoi(argv[2]);
-
-printf("%d\n", a *b);
-
-return (0);
-
-}
-printf("Error\n");
-
-return (1);
+	if (argc < 3 || argc > 3)
+	{
+		printf("Error\n");
+		return (1);
+	}
+	else
+	{
+		multiplication = atoi(*(argv + 1)) * atoi(*(argv + 2));
+		printf("%i\n", multiplication);
+	}
+	return (0);
 }
