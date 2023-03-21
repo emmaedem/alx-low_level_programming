@@ -1,18 +1,13 @@
 #include <stdio.h>
 
+void print_something(void) __attribute__ ((constructor));
+
 /**
- * main - check the code
- * 
- * Return: Always 0.
+ *print_something - prints a msg before the main
  */
 
-int main(void)
+void print_something(void)
 {
-
-	printf("You're beat! and yet, you must allow,\n");
-
-	printf("I bore my house upon my back!\n");
-	
-	return (0);
-
+	printf("You're beat! and yet, you must allow,\n"
+	       "I bore my house upon my back!\n");
 }
